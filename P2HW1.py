@@ -1,7 +1,7 @@
 # Dagger Allocca
 # 09/09/2024
 # P1HW2
-# Travel expenses calculator
+# Format travel expenses calculator
 
 print('This program calculates and displays travel expenses')
 
@@ -17,13 +17,13 @@ print('')
 
 print('-----Travel Expenses-----')
 print('Location:',destination)
-print(f'{budget:<10.2} value')
+print("f'{budget:.2f}'")
 
 print('')
 
-print('Fuel:',f'${gas:.2f}')
-print('Accomodation:',f'${accomodation:.2f}')
-print('Food:',f'${food:.2f}')
+print('Fuel:',"f'${gas:.2f}'")
+print('Accomodation:',"f'${accomodation:.2f}'")
+print('Food:',"f'${food:.2f}'")
 
 print('')
 
