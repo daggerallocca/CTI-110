@@ -7,17 +7,17 @@ print('This program calculates and displays travel expenses')
 
 print('')
 
-budget = int(input('Enter Budget: '))
+budget = (input('Enter Budget: '))
 destination = input('Enter your travel destination: ')
-gas = int(input('How much do you think you will spend on gas? '))
-accomodation = int(input('Approximately, how much do you think you will need for accomodation/hotel? '))
-food = int(input('Last, how much do you need for food? '))
+gas = (input('How much do you think you will spend on gas? '))
+accomodation = (input('Approximately, how much do you think you will need for accomodation/hotel? '))
+food = (input('Last, how much do you need for food? '))
 
 print('')
 
 print('-----Travel Expenses-----')
 print('Location:',destination)
-print('Initial Budget:',f'${budget:.2f}')
+print(f'{budget:<10.2} value')
 
 print('')
 
