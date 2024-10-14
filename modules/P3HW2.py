@@ -9,7 +9,7 @@ hours = int(input("Enter number of hours worked: "))
 pay_rate = float(input("Enter employee pay rate: "))
 
 # Display employee name
-print('-----------------------------------------\nEmployee name:',name)
+print('-----------------------------------\nEmployee name:',name)
 
 # Determine employee pay
 if hours > 40: # Has some OT
